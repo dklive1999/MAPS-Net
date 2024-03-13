@@ -14,7 +14,7 @@ Paper code: Image tampering localization network based on multi-class attention 
 
 # Dataset
 
-### An example of the dataset index file is given as  [data/Casiav1.txt](./datasets/Casiav1.txt), where each line contains:
+### An example of the dataset index file is given as  [datasets/Casiav1.txt](./datasets/Casiav1.txt), where each line contains:
 
 ```
  img_path mask_path label
@@ -50,19 +50,19 @@ Paper code: Image tampering localization network based on multi-class attention 
 
 ## Training sets
 
-- [CASIAv2](./data/mydata.txt)
+- [CASIAv2](./datasets/Casiav2.txt)
 
 ## Test sets
 
-- [CASIAv1](./data/Casiav1.txt)
-- [Columbia](./data/Columbia.txt)
-- [COVERAGE](./data/COVERAGE.txt)
-- [nist16](./data/nist16.txt)
+- [CASIAv1](./datasets/Casiav1.txt)
+- [Columbia](./datasets/Columbia.txt)
+- [COVERAGE](./datasets/COVERAGE.txt)
+- [nist16](./datasets/nist16.txt)
 
 # Training
 
-Please set the train image path in [train_base.py](train_base.py), then run [train_lanch.py](train_launch.py) with Python.
+Please set the train image path in [train_base.py](./train_base.py), then run [train_lanch.py](./train_launch.py) with Python.
 
 # Evaluation
 
-Please set the test image path in [inference.py](inference.py) and  run [inference.py](inference.py) with Python, then run [evaluate.py](evaluate.py) with Python.
+Please set the test image path in [inference.py](./inference.py) and  run [inference.py](./inference.py) with Python, then run [evaluate.py](./evaluate.py) with Python.

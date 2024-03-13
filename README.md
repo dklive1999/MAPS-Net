@@ -14,7 +14,7 @@ Paper code: Image tampering localization network based on multi-class attention 
 
 # Dataset
 
-### An example of the dataset index file is given as  [data/Casiav1.txt](./data/Casiav1.txt), where each line contains:
+### An example of the dataset index file is given as  [data/Casiav1.txt](./datasets/Casiav1.txt), where each line contains:
 
 ```
  img_path mask_path label

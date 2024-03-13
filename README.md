@@ -61,7 +61,7 @@ Paper code: Image tampering localization network based on multi-class attention 
 
 # Training
 
-Please set the train image path in [train_base.py](./train_base.py), then run [train_lanch.py](./train_launch.py) with Python.
+Please set the train image path in [train_base.py](./train_base.py), then run [train_lanch.py](./train_launch.py) with Python.   In the [models](./models) folder we have provided several working python files, namely "maps_net-xxx.py", please select the .py file you need to run and rename it to "maps_net.py " for proper training. These .py files were also used by us in the ablation experiments.
 
 # Evaluation
 

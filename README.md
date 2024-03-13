@@ -1,9 +1,5 @@
 # MAPS-Net
 Paper code: Image tampering localization network based on multi-class attention and progressive subtraction
-# ISIE-Net
-
-### Code for the paper "Image tampering localization network based on multi-class attention and progressive subtraction"
-
 <div align="center">
   <img src="https://github.com/ginwins/ISIE-Net/blob/master/images/ISIE-Net.jpg">
 </div>
